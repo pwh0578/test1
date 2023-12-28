@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <div className='TodoAdd'>
       <input type='text' id='Todo' value={list} onChange={todoHandler}></input>
-      <button id='button' onClick={AddedHandler}>추가하기</button>
+      <button id='button' onClick={AddedHandler}>추가하기!</button>
       <br></br>
       <h1>TodoList</h1>
       </div>
